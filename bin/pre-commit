@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for file in *.asc
+do
+  ./bin/convert.sh "$file"
+done
